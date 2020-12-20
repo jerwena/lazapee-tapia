@@ -99,7 +99,7 @@ h1.initial {
     list-style-type: none;
     margin: 0px;
     overflow: hidden;
-    padding-left:350px ;
+    padding-left:300px ;
   }
 
   .nav-footer li {
@@ -110,4 +110,5 @@ h1.initial {
 .right{
   float: right;
   padding-right: 20px;
+  padding-bottom:20px;
 }
