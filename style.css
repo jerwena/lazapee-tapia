@@ -8,7 +8,6 @@ img.logo {
 
 .nav-header {
   background-color: #ffffff;
-  border-color: 1px #cacaca;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -42,7 +41,6 @@ img.logo {
   background-color: #f95031;
   color: #252f7b;
 }
-
 .nav-header .nav-right{
   float: right;
 }
@@ -62,7 +60,6 @@ img.logo {
 
 h1.initial {
   margin-top: 20px;
-
 }
 .myimg{
     width:200px;
@@ -75,8 +72,42 @@ h1.initial {
 * {
   box-sizing: border-box;
 }
-.row{
-  display:flex;
+* {
+  box-sizing: border-box;
 }
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+  .column{
+    padding: 20px;
+    background-color: #ffffff;
+
+  }
   /*Footer*/
-  
+
+  .nav-footer {
+    color: #424242;
+    padding: 80px;
+    background-color:#ffffff;
+    list-style-type: none;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+  }
+  .nav-footer ul {
+    list-style-type: none;
+    margin: 0px;
+    overflow: hidden;
+    padding-left:400px ;
+  }
+
+  .nav-footer li {
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+.right{
+  float: right;
+  padding-right: 20px;
+}
