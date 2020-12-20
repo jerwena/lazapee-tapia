@@ -68,6 +68,9 @@ h1.initial {
     padding: 5px;
     float: center;
   }
+.myimg a{
+    color: #424242;
+  }
   
 * {
   box-sizing: border-box;
